@@ -1,5 +1,5 @@
 package Sports;
-
+//check 
 import java.util.Scanner;
 
 public class Cricket extends UserInput {
