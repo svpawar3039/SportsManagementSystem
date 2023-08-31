@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SwitchCase {
 	Scanner sc = new Scanner(System.in);
 	Cricket ck = new Cricket();
+	Football fb = new Football();
 	public void SwitchCase() {
 		System.out.println("\nEnter Your Choice");
 		try {
@@ -15,7 +16,7 @@ public class SwitchCase {
 				break;
 			
 			case 2:
-			
+				fb.Football();
 				break;
 			
 			case 3:
