@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Cricket extends UserInput {
 	Scanner sc = new Scanner(System.in);
-	public void Cricket() {
+	public void addPlayer() {
 		int baller = 4;
 		int batsman = 4;
 		int keeper = 1;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Football extends UserInput {
 	Scanner sc = new Scanner(System.in);
-	public void Football() {
+	public void addPlayer() {
 		int defender = 4;
 		int midfilder = 4;
 		int goalkeeper = 1;

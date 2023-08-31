@@ -8,9 +8,18 @@ public class SportsMSystem {
 		SwitchCase sw = new SwitchCase();
 	
 		Scanner sc = new Scanner(System.in);
-		uinp.PrintSports();
-		sc.nextLine();
-		sw.SwitchCase();
+		int Option=-1;
+		while (Option != 0) {
+			
+			uinp.PrintSports();
+//			sc.nextLine();
+			System.out.println("\nEnter Your Choice");
+			Option = sc.nextInt();
+			if(Option == 0)break;
+			sw.SwitchCase(Option);
+		}
+		
+		
 	}
 
 }

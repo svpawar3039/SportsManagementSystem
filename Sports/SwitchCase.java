@@ -6,17 +6,18 @@ public class SwitchCase {
 	Scanner sc = new Scanner(System.in);
 	Cricket ck = new Cricket();
 	Football fb = new Football();
-	public void SwitchCase() {
-		System.out.println("\nEnter Your Choice");
+	
+	public void SwitchCase(int UserChoice) {
+//		System.out.println("\nEnter Your Choice");
 		try {
-			int UserChoice = sc.nextInt();
+//			int UserChoice = sc.nextInt();
 			switch(UserChoice) {
 			case 1:
-				ck.Cricket();
+				ck.addPlayer();
 				break;
 			
 			case 2:
-				fb.Football();
+				fb.addPlayer();
 				break;
 			
 			case 3:
