@@ -25,4 +25,4 @@ package
 outside the    yes      yes          no        no
 package 
 within
-sub class
+sub_class
