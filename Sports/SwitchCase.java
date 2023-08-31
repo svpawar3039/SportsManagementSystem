@@ -1,0 +1,53 @@
+package Sports;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+	Scanner sc = new Scanner(System.in);
+	Cricket ck = new Cricket();
+	public void SwitchCase() {
+		System.out.println("\nEnter Your Choice");
+		try {
+			int UserChoice = sc.nextInt();
+			switch(UserChoice) {
+			case 1:
+				ck.Cricket();
+				break;
+			
+			case 2:
+			
+				break;
+			
+			case 3:
+			
+				break;
+			
+			case 4:
+			
+				break;
+			
+			case 5:
+			
+				break;
+			
+			case 6:
+			
+				break;
+			
+			case 7:
+			
+				break;
+			
+			default:
+				System.out.println("Please Enter Valid Choice");
+			}
+		}catch(Exception e) {
+			System.out.println("enter valid choice");			
+		}
+	
+	
+	
+}
+
+
+}
